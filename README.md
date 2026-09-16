@@ -54,15 +54,6 @@ campus-management-system/
 ├── style.css
 ├── script.js
 ├── README.md
-│
-└── screenshots/
-    ├── landing-page.png
-    ├── login.png
-    ├── admin-dashboard.png
-    ├── student-dashboard.png
-    ├── attendance.png
-    └── results.png
-```
 
 ## Data Storage
 
