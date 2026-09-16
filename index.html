@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CMS — Campus Management System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Loading overlay -->
+  <div id="loader" class="loader">
+    <div class="loader-ring"></div>
+  </div>
+
+  <!-- Toast container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Confirm modal -->
+  <div id="confirm-modal" class="modal hidden">
+    <div class="modal-card glass">
+      <h3 id="confirm-title">Are you sure?</h3>
+      <p id="confirm-text">This action cannot be undone.</p>
+      <div class="modal-actions">
+        <button class="btn btn-ghost" id="confirm-cancel">Cancel</button>
+        <button class="btn btn-danger" id="confirm-ok">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- App root - all views injected here -->
+  <div id="app"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
